@@ -7,9 +7,9 @@
 ### Current Landscape
 
 | Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
-| -------- | ------ | ----------------- | ---- | ---------------- | ---------- | ------------------- | ------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
-| Bitcoin  | BTC    | $ 913,437,031,824 |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★  | PoW                 | ★ ★ ★ ★ ★           | No              | No           | No              | N/A   | N/A             | N/A               |
-| Ethereum | ETH    | $ 190,788,644,118 |    2 | ★ ★ ★ ★ ★        | ★ ★  | PoW                 | ★ ★ ★ ★ ★           | No              | Yes          | Yes             | 2190  | EVM             | Solidity          |
+| -------- | ------ | ----------------- | ---- | ---------------- | ---------------------- | ------------------- | ------------------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
+| Bitcoin  | BTC    | $ 913,437,031,824 |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★                | PoW                 | ★ ★ ★ ★ ★                       | No              | No           | No              | N/A   | N/A             | N/A               |
+| Ethereum | ETH    | $ 190,788,644,118 |    2 | ★ ★ ★ ★ ★        | ★ ★                    | PoW                 | ★ ★ ★ ★ ★                       | No              | Yes          | Yes             | 2190  | EVM             | Solidity          |
 
 ### Future Landscape
 
@@ -20,23 +20,38 @@
 
 the first crypto currency
 
+#### Pros
+
+#### Cons
+
 [bitcoin.org](https://bitcoin.org)
+
 [whitepaper](https://bitcoin.org/bitcoin.pdf)
+
 [wikipedia](https://en.wikipedia.org/wiki/Bitcoin)
+
 [docs](https://developer.bitcoin.org)
 
 #### Additional Links
 
 [coinmarketcap.com/currencies/bitcoin](https://coinmarketcap.com/currencies/bitcoin)
+
 [cryptorival.com/coins/bitcoin](https://cryptorival.com/coins/bitcoin)
 
 ### Ethereum (ETH)
 
 the first crypto currency that supports smart contracts
 
+#### Pros
+
+#### Cons
+
 [ethereum.org](https://ethereum.org)
+
 [whitepaper](https://ethereum.org/en/whitepaper)
+
 [wikipedia](https://en.wikipedia.org/wiki/Ethereum)
+
 [docs](https://ethereum.org/en/developers)
 
 #### Additional Links
