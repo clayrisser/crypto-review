@@ -6,7 +6,7 @@
 
 ### Current Landscape
 
-| Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | Scalabilty&nbsp;&nbsp; | Consensus Algorithm | Developer Community | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
+| Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | Scalabilty&nbsp;&nbsp; | Consensus Algorithm | Developer Community&nbsp;&nbsp; | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
 | -------- | ------ | ----------------- | ---- | ---------------- | ---------- | ------------------- | ------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
 | Bitcoin  | BTC    | $ 913,437,031,824 |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★ -  | PoW                 | ★ ★ ★ ★ ★           | No              | No           | No              | N/A   | N/A             | N/A               |
 | Ethereum | ETH    | $ 190,788,644,118 |    2 | ★ ★ ★ ★ ★        | ★ ★ - - -  | PoW                 | ★ ★ ★ ★ ★           | No              | Yes          | Yes             | 2190  | EVM             | Solidity          |
