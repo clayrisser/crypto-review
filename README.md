@@ -41,7 +41,7 @@ the first crypto currency
 
 the first crypto currency that supports smart contracts
 
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2431_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"bitcoin","geo":"US","time":"2020-03-07 2021-03-07"},{"keyword":"ethereum","geo":"US","time":"2020-03-07 2021-03-07"}],"category":0,"property":""}, {"exploreQuery":"geo=US&q=bitcoin,ethereum&date=today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+![](images/ethereum.png)
 
 #### Pros
 
