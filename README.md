@@ -4,20 +4,30 @@
 
 ### Current Landscape
 
-| Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
-| -------- | ------ | ----------------- | ---- | ---------------- | ---------------------- | ------------------- | ------------------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
-| Bitcoin  | BTC    | $ 913,437,031,824 |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★                | PoW                 | ★ ★ ★ ★ ★                       | No              | No           | No              | N/A   | N/A             | N/A               |
-| Ethereum | ETH    | $ 190,788,644,118 |    2 | ★ ★ ★ ★ ★        | ★ ★                    | PoW                 | ★ ★ ★ ★ ★                       | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
+| Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
+| -------- | ------ | ----------------- | ---- | ---------------- | ---------------------- | ------------------- | ------------------------------- | ---------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
+| Bitcoin  | BTC    | $913,437,031,824  |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★                | PoW                 | ★ ★ ★ ★ ★                       | Yes (Can be Expensive) | No              | No           | No              | N/A   | N/A             | N/A               |
+| Ethereum | ETH    | $190,788,644,118  |    2 | ★ ★ ★ ★ ★        | ★ ★                    | PoW                 | ★ ★ ★ ★ ★                       | Yes (Very Expensive)   | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
 
 ### Future Landscape
 
-| Name         | Symbol | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language          |
-| ------------ | ------ | ---------------- | ---------------------- | ------------------- | ------------------------------- | --------------- | ------------ | --------------- | ----- | --------------- | -------------------------- |
-| Ethereum 2.0 | ETH    | ★ ★ ★ ★ ★        | ★ ★ ★ ★ ★              | PoS                 | ★ ★ ★ ★ ★                       | Yes             | Yes          | Yes             | 0     | WASM            | Theoretically Any Language |
+these are cryptos or forks of cryptos that will exist in the future
+
+| Name         | Symbol | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Transaction Fees | Turing Complete | Smart Assets | Smart Contracts | Virtual Machine | Contract Language          |
+| ------------ | ------ | ---------------- | ---------------------- | ------------------- | ------------------------------- | ---------------- | --------------- | ------------ | --------------- | --------------- | -------------------------- |
+| Ethereum 2.0 | ETH    | ★ ★ ★ ★ ★        | ★ ★ ★ ★ ★              | PoS                 | ★ ★ ★ ★ ★                       | Yes              | Yes             | Yes          | Yes             | WASM            | Theoretically Any Language |
 
 ## Bitcoin (BTC)
 
 the first crypto currency
+
+[bitcoin.org](https://bitcoin.org)
+
+[whitepaper](https://bitcoin.org/bitcoin.pdf)
+
+[wikipedia](https://en.wikipedia.org/wiki/Bitcoin)
+
+[docs](https://developer.bitcoin.org)
 
 ![](images/bitcoin.png)
 
@@ -32,14 +42,6 @@ the first crypto currency
 
 - PoW algorithm consumes massive amounts of energy
 
-[bitcoin.org](https://bitcoin.org)
-
-[whitepaper](https://bitcoin.org/bitcoin.pdf)
-
-[wikipedia](https://en.wikipedia.org/wiki/Bitcoin)
-
-[docs](https://developer.bitcoin.org)
-
 #### Additional Links
 
 [coinmarketcap.com/currencies/bitcoin](https://coinmarketcap.com/currencies/bitcoin)
@@ -52,11 +54,18 @@ the first crypto currency that supports smart contracts
 
 ![](images/ethereum.png)
 
+[ethereum.org](https://ethereum.org)
+
+[whitepaper](https://ethereum.org/en/whitepaper)
+
+[wikipedia](https://en.wikipedia.org/wiki/Ethereum)
+
 #### Pros
 
 - most active dApp platform
 - first crypto to support smart contracts
 - most funded crypto that supports smart contracts
+- smart contract platform with the most dApps
 - ethereum 2.0 has the potential to fix slow and expensive transactions and bring support for additional languages due to the EVM being replaced with WASM
 - leader in the smart contract space
 - largest smart contract developer community
@@ -69,12 +78,6 @@ the first crypto currency that supports smart contracts
 - smart contracts built in an obscure and unfamiliar custom language called solidity (theoretically not an issue in 2.0 due to transition from EVM to WASM)
 - current PoW algorithm consumes massive amounts of energy (not an issue in 2.0 due to migration to PoS consensus algorithm)
 - ethereum 2.0 is not ready yet
-
-[ethereum.org](https://ethereum.org)
-
-[whitepaper](https://ethereum.org/en/whitepaper)
-
-[wikipedia](https://en.wikipedia.org/wiki/Ethereum)
 
 [docs](https://ethereum.org/en/developers)
 
