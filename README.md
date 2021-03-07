@@ -4,18 +4,18 @@
 
 ### Current Landscape
 
-| Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
-| -------- | ------ | ----------------- | ---- | ---------------- | ---------------------- | ------------------- | ------------------------------- | ---------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
-| Bitcoin  | BTC    | $913,437,031,824  |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★                | PoW                 | ★ ★ ★ ★ ★                       | Yes (Can be Expensive) | No              | No           | No              | N/A   | N/A             | N/A               |
-| Ethereum | ETH    | $190,788,644,118  |    2 | ★ ★ ★ ★ ★        | ★ ★                    | PoW                 | ★ ★ ★ ★ ★                       | Yes (Very Expensive)   | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
+| Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | &nbsp;&nbsp;Scalabilty&nbsp;&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
+| -------- | ------ | ----------------- | ---- | ---------------- | ---------------------------------- | ------------------- | ------------------------------- | ---------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
+| Bitcoin  | BTC    | $913,437,031,824  |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★                            | PoW                 | ★ ★ ★ ★ ★                       | Yes (Can be Expensive) | No              | No           | No              | N/A   | N/A             | N/A               |
+| Ethereum | ETH    | $190,788,644,118  |    2 | ★ ★ ★ ★ ★        | ★ ★                                | PoW                 | ★ ★ ★ ★ ★                       | Yes (Very Expensive)   | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
 
 ### Future Landscape
 
 these are cryptos or forks of cryptos that will exist in the future
 
-| Name         | Symbol | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Transaction Fees | Turing Complete | Smart Assets | Smart Contracts | Virtual Machine | Contract Language          |
-| ------------ | ------ | ---------------- | ---------------------- | ------------------- | ------------------------------- | ---------------- | --------------- | ------------ | --------------- | --------------- | -------------------------- |
-| Ethereum 2.0 | ETH    | ★ ★ ★ ★ ★        | ★ ★ ★ ★ ★              | PoS                 | ★ ★ ★ ★ ★                       | Yes              | Yes             | Yes          | Yes             | WASM            | Theoretically Any Language |
+| Name         | Symbol | Decentralization | &nbsp;&nbsp;Scalabilty&nbsp;&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Transaction Fees | Turing Complete | Smart Assets | Smart Contracts | Virtual Machine | Contract Language          |
+| ------------ | ------ | ---------------- | ---------------------------------- | ------------------- | ------------------------------- | ---------------- | --------------- | ------------ | --------------- | --------------- | -------------------------- |
+| Ethereum 2.0 | ETH    | ★ ★ ★ ★ ★        | ★ ★ ★ ★ ★                          | PoS                 | ★ ★ ★ ★ ★                       | Yes              | Yes             | Yes          | Yes             | WASM            | Theoretically Any Language |
 
 ## Bitcoin (BTC)
 
