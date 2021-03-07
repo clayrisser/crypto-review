@@ -4,12 +4,13 @@
 
 ### Current Landscape
 
-| Name         | Symbol | Marketcap (USD)   | Rank | Decentralization | &nbsp;&nbsp;Scalabilty&nbsp;&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
-| ------------ | ------ | ----------------- | ---- | ---------------- | ---------------------------------- | ------------------- | ------------------------------- | ---------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
-| Bitcoin      | BTC    | $913,437,031,824  |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★                            | PoW                 | ★ ★ ★ ★ ★                       | Yes (Can be Expensive) | No              | No           | No              | N/A   | N/A             | N/A               |
-| Ethereum     | ETH    | $190,788,644,118  |    2 | ★ ★ ★ ★ ★        | ★ ★                                | PoW                 | ★ ★ ★ ★ ★                       | Yes (Very Expensive)   | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
-| Ethereum 2.0 | ETH    | N/A               |  N/A | ★ ★ ★ ★ ★        | ★ ★ ★ ★ ★                          | PoS                 | ★ ★ ★ ★ ★                       | Yes                    | Yes             | Yes          | Yes             | N/A   | WASM            | Any Language      |
-| Cardano      | ADA    | $35,887,731,331   |    3 | ★ ★ ★ ★ ★        | ★ ★ ★ ★ ★                          | PoS                 | ★ ★ ★                           | Yes                    | Yes             | Yes          | Yes             | N/A   | KEVM IEVM       | Any Language      |
+| Name         | Symbol | Marketcap (USD)   | Rank | &nbsp;Decentralization&nbsp; | &nbsp;&nbsp;&nbsp;Scalabilty&nbsp;&nbsp;&nbsp; | Consensus Algorithm | Sharding | Sidechains         | Developer &nbsp;Community&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
+| ------------ | ------ | ----------------- | ---- | ---------------------------- | ---------------------------------------------- | ------------------- | -------- | ------------------ | ------------------------------- | ---------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
+| Bitcoin      | BTC    | $913,437,031,824  |    1 | ★ ★ ★ ★ ★                    | ★ ★ ★ ★                                        | PoW                 | No       | No                 | ★ ★ ★ ★ ★                       | Yes (Can be Expensive) | No              | No           | No              | N/A   | N/A             | N/A               |
+| Ethereum     | ETH    | $190,788,644,118  |    2 | ★ ★ ★ ★ ★                    | ★ ★                                            | PoW                 | No       | Partial (offchain) | ★ ★ ★ ★ ★                       | Yes (Very Expensive)   | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
+| Ethereum 2.0 | ETH    | N/A               |  N/A | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★ ★                       | Yes                    | Yes             | Yes          | Yes             | N/A   | WASM            | Any Language      |
+| Cardano      | ADA    | $35,887,731,331   |    4 | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★                           | Yes                    | Yes             | Yes          | Yes             | N/A   | KEVM IEVM       | Any Language      |
+| Polkadot     | DOT    | $30,949,107,442   |    6 | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                         | Yes                    | Yes             | Yes          | Yes             | 48    | WASM            | Any Language      |
 
 
 ## Bitcoin (BTC)
@@ -37,6 +38,7 @@ _5 year trend_
 #### Cons
 
 - PoW algorithm consumes massive amounts of energy
+- does not support sharding or sidechains
 
 #### Additional Links
 
@@ -48,6 +50,8 @@ _5 year trend_
 ## Ethereum (ETH)
 
 the first crypto currency that supports smart contracts
+
+**_ethereum 2.0 is still in active development_**
 
 _1 year trend_
 ![](images/ethereum.png)
@@ -63,7 +67,7 @@ _1 year trend_
 #### Pros
 
 - first crypto that support smart contracts
-- most active dApp platform
+- most active cryto that supports smart contracts
 - most funded crypto that supports smart contracts
 - smart contract platform with the most dApps
 - ethereum 2.0 has the potential to fix slow and expensive transactions and bring support for additional languages due to the EVM being replaced with WASM
@@ -77,6 +81,7 @@ _1 year trend_
 - expensive transaction fees (not an issue in 2.0 due to migration to PoS algorithm)
 - smart contracts built in an obscure and unfamiliar custom language called solidity (theoretically not an issue in 2.0 due to transition from EVM to WASM)
 - current PoW algorithm consumes massive amounts of energy (not an issue in 2.0 due to migration to PoS consensus algorithm)
+- does not support sharding (not an issue in 2.0 due to support for both sharding and sidechains)
 - ethereum 2.0 is not ready yet
 
 #### Additional Links
@@ -87,10 +92,14 @@ _1 year trend_
 
 [dappradar.com/rankings/protocol/ethereum](https://dappradar.com/rankings/protocol/ethereum)
 
+[dapp.com/topics/ethereum](https://www.dapp.com/topics/ethereum)
 
-## Cardano (ADA)
+
+## Cardano (ADA**
 
 largest marketcap PoS smart contract platform
+
+**_cardano is still in active development_**
 
 _1 year trend_
 ![](images/cardano.png)
@@ -108,7 +117,8 @@ _1 year trend_
 - largest marketcap PoS smart contract platform
 - PoS consensus allows the platform to scale efficiently
 - KEVM is backwards compatible with ethereum solidity smart contracts
-- IEVM supports smart contracts built in any language
+- IEVM virtual machine supports smart contracts to be built in many languages
+- supports sharding and sidechains which improves the scalability of the platform
 
 #### Cons
 
@@ -124,12 +134,51 @@ _1 year trend_
 [cryptorival.com/coins/cardano](https://cryptorival.com/coins/cardano)
 
 
+## Polkadot (DOT)
+
+largest marketcap production ready PoS smart contract platform
+
+_1 year trend_
+![](images/polkadot.png)
+
+[polkadot.network](https://polkadot.network)
+
+[whitepaper](https://polkadot.network/Polkadot-lightpaper.pdf)
+
+[wikipedia](https://en.wikipedia.org/wiki/Polkadot_(cryptocurrency))
+
+[docs](https://wiki.polkadot.network)
+
+#### Pros
+
+- largest marketcap production ready PoS smart contract platform
+- PoS consensus allows the platform to scale efficiently
+- emphasis on sidechains enabling massive scalability
+- WASM virtual machine supports smart contracts to be built in many languages
+- supports sharding which improves the scalability of the platform
+
+#### Cons
+
+- more complex architecture due to sidechain emphasis
+- small number of published dApps
+- development community still lacking because it is newer
+
+#### Additional Links
+
+[coinmarketcap.com/currencies/polkadot](https://coinmarketcap.com/currencies/polkadot)
+
+[cryptorival.com/coins/polkadot](https://cryptorival.com/coins/polkadot)
+
+[dapp.com/topics/polkadot](https://www.dapp.com/topics/polkadot)
+
 ## Resources
 
 [coinmarketcap.com](https://coinmarketcap.com) - Cryptos sorted by marketcap
 
 [cryptorival.com](https://cryptorival.com) - Compare crypto currencies
 
-[dappradar.com](https://dappradar.com) - Comprehensive dApp marketplace across platforms
+[dappradar.com](https://dappradar.com) - dApp marketplace across crypto platforms
+
+[dapp.com](https://www.dapp.com) - dApp marketplace across crypto platforms
 
 [cardano vs polkadot vs ethereum vs eos vs cosmos](https://www.reddit.com/r/eos/comments/lemel2/cardano_vs_polkadot_vs_ethereum_vs_eos_vs_cosmos) - one of the best comparisons of smart contract (dApp) crypto platforms
