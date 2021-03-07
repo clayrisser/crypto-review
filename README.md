@@ -19,9 +19,18 @@
 
 the first crypto currency
 
+![](images/bitcoin.png)
+
 #### Pros
 
+- the first cryptocurrency
+- most trusted cryptocurrency
+- cryptocurrency with the largest market cap
+- leader in the cryto space
+
 #### Cons
+
+- PoW algorithm consumes massive amounts of energy
 
 [bitcoin.org](https://bitcoin.org)
 
@@ -56,9 +65,10 @@ the first crypto currency that supports smart contracts
 #### Cons
 
 - slow network
-- expensive transaction fees
+- expensive transaction fees (not an issue in 2.0 due to migration to PoS algorithm)
+- smart contracts built in an obscure and unfamiliar custom language called solidity (theoretically not an issue in 2.0 due to transition from EVM to WASM)
+- current PoW algorithm consumes massive amounts of energy (not an issue in 2.0 due to migration to PoS consensus algorithm)
 - ethereum 2.0 is not ready yet
-- smart contracts built in solidity (obscure custom programming language)
 
 [ethereum.org](https://ethereum.org)
 
