@@ -11,7 +11,8 @@
 | Ethereum 2.0 | ETH    | N/A               |  N/A | No               | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★ ★                       | Yes                    | Yes             | Yes          | Yes             | N/A   | WASM            | Any Language      |
 | Cardano      | ADA    | $35,887,731,331   |    4 | No               | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★                           | Yes                    | Yes             | Yes          | Yes             | N/A   | KEVM IEVM       | Any Language      |
 | Polkadot     | DOT    | $30,949,107,442   |    6 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                         | Yes                    | Yes             | Yes          | Yes             | 48    | WASM            | Any Language      |
-| Nem          | XEM    | $6,567,188,783    |   14 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★                                          | PoI                 | No       | No                 | ★ ★ ★                           | Yes                    | No              | Yes          | No              | N/A | N/A             | N/A               |
+| Nem          | XEM    | $6,567,188,783    |   14 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★                                          | PoI                 | No       | No                 | ★ ★ ★                           | Yes                    | No              | Yes          | No              | N/A   | N/A             | N/A               |
+| Cosmos       | ATOM   | $3,981,298,122    |   19 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                         | Yes                    | Yes             | Yes          | Yes             | 220   | N/A             | Golang            |
 
 
 ## Bitcoin (BTC)
@@ -40,6 +41,7 @@ _5 year trend_
 
 - PoW algorithm consumes massive amounts of energy
 - does not support sharding or sidechains
+- cannot build dApps because it does not support smart contracts
 
 #### Additional Links
 
@@ -183,7 +185,6 @@ first crypto that supports proof of importance consensus
 _1 year trend_
 ![](images/nem.png)
 
-
 [nem.io](https://nem.io)
 
 [nemplatform.com](https://nemplatform.com)
@@ -194,7 +195,17 @@ _1 year trend_
 
 #### Pros
 
+- first crypto that supports proof of importance consensus
+- PoI algorithm enables more equitable distribution of value
+- supports smart assets
+- one of the simplest platforms for building smart assets
+
 #### Cons
+
+- does not support sharding or sidechains
+- smart assets are not flexible because it does not support smart contracts
+- cannot build dApps because it does not support smart contracts
+- community interest has decreased
 
 #### Additional Links
 
@@ -202,6 +213,39 @@ _1 year trend_
 
 [cryptorival.com/coins/nem](https://cryptorival.com/coins/nem)
 
+
+## Cosmos (ATOM)
+
+first smart contract platform that does not run a virtual machine
+
+_1 year trend_
+![](images/cosmos.png)
+
+[cosmos.network](https://cosmos.network)
+
+[whitepaper](https://cosmos.network/resources/whitepaper)
+
+[docs](https://docs.cosmos.network)
+
+#### Pros
+
+- first smart contract platform that does not run a virtual machine
+- PoS consensus allows the platform to scale efficiently
+- supports sharding and sidechains which improves the scalability of the platform
+- over 200 dApps already in production
+
+#### Cons
+
+- smart contracts must be built in golang (could be a pro depending on how to look at it)
+- development community still in the process of maturing
+
+#### Additional Links
+
+[coinmarketcap.com/currencies/cosmos](https://coinmarketcap.com/currencies/cosmos)
+
+[cryptorival.com/coins/cosmos](https://cryptorival.com/coins/cosmos)
+
+[cosmos.network/ecosystem/apps](https://cosmos.network/ecosystem/apps)
 
 ## Resources
 
