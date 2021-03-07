@@ -11,6 +11,7 @@
 | Ethereum 2.0 | ETH    | N/A               |  N/A | No               | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★ ★                       | Yes                    | Yes             | Yes          | Yes             | N/A   | WASM            | Any Language      |
 | Cardano      | ADA    | $35,887,731,331   |    4 | No               | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★                           | Yes                    | Yes             | Yes          | Yes             | N/A   | KEVM IEVM       | Any Language      |
 | Polkadot     | DOT    | $30,949,107,442   |    6 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                         | Yes                    | Yes             | Yes          | Yes             | 48    | WASM            | Any Language      |
+| Nem          | XEM    | $6,567,188,783    |   14 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★                                          | PoI                 | No       | No                 | ★ ★ ★                           | Yes                    | No              | Yes          | No              | N/A | N/A             | N/A               |
 
 
 ## Bitcoin (BTC)
@@ -79,6 +80,7 @@ _1 year trend_
 
 - slow network
 - expensive transaction fees (not an issue in 2.0 due to migration to PoS algorithm)
+- PoW algorithm consumes massive amounts of energy (not an issue in 2.0 due to migration to PoS algorithm)
 - smart contracts built in an obscure and unfamiliar custom language called solidity (theoretically not an issue in 2.0 due to transition from EVM to WASM)
 - current PoW algorithm consumes massive amounts of energy (not an issue in 2.0 due to migration to PoS consensus algorithm)
 - does not support sharding (not an issue in 2.0 due to support for both sharding and sidechains)
@@ -111,6 +113,8 @@ _1 year trend_
 [wikipedia](https://en.wikipedia.org/wiki/Cardano_(cryptocurrency_platform))
 
 [docs](https://docs.cardano.org)
+
+[roadmap](https://roadmap.cardano.org)
 
 #### Pros
 
@@ -170,6 +174,34 @@ _1 year trend_
 [cryptorival.com/coins/polkadot](https://cryptorival.com/coins/polkadot)
 
 [dapp.com/topics/polkadot](https://www.dapp.com/topics/polkadot)
+
+
+## Nem (XEM)
+
+first crypto that supports proof of importance consensus
+
+_1 year trend_
+![](images/nem.png)
+
+
+[nem.io](https://nem.io)
+
+[nemplatform.com](https://nemplatform.com)
+
+[whitepaper](https://nemplatform.com/wp-content/uploads/2020/05/NEM_techRef.pdf)
+
+[docs](https://docs.nem.io)
+
+#### Pros
+
+#### Cons
+
+#### Additional Links
+
+[coinmarketcap.com/currencies/nem](https://coinmarketcap.com/currencies/nem)
+
+[cryptorival.com/coins/nem](https://cryptorival.com/coins/nem)
+
 
 ## Resources
 
