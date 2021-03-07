@@ -2,21 +2,20 @@
 
 > cryptos from a developers point of view
 
-## Overview
-
 ### Current Landscape
 
 | Name     | Symbol | Marketcap (USD)   | Rank | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
 | -------- | ------ | ----------------- | ---- | ---------------- | ---------------------- | ------------------- | ------------------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
 | Bitcoin  | BTC    | $ 913,437,031,824 |    1 | ★ ★ ★ ★ ★        | ★ ★ ★ ★                | PoW                 | ★ ★ ★ ★ ★                       | No              | No           | No              | N/A   | N/A             | N/A               |
-| Ethereum | ETH    | $ 190,788,644,118 |    2 | ★ ★ ★ ★ ★        | ★ ★                    | PoW                 | ★ ★ ★ ★ ★                       | No              | Yes          | Yes             | 2190  | EVM             | Solidity          |
+| Ethereum | ETH    | $ 190,788,644,118 |    2 | ★ ★ ★ ★ ★        | ★ ★                    | PoW                 | ★ ★ ★ ★ ★                       | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
 
 ### Future Landscape
 
+| Name         | Symbol | Decentralization | &nbsp;Scalabilty&nbsp; | Consensus Algorithm | Developer &nbsp;Community&nbsp; | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language          |
+| ------------ | ------ | ---------------- | ---------------------- | ------------------- | ------------------------------- | --------------- | ------------ | --------------- | ----- | --------------- | -------------------------- |
+| Ethereum 2.0 | ETH    | ★ ★ ★ ★ ★        | ★ ★ ★ ★ ★              | PoS                 | ★ ★ ★ ★ ★                       | Yes             | Yes          | Yes             | 0     | WASM            | Theoretically Any Language |
 
-## Detail
-
-### Bitcoin (BTC)
+## Bitcoin (BTC)
 
 the first crypto currency
 
@@ -38,13 +37,28 @@ the first crypto currency
 
 [cryptorival.com/coins/bitcoin](https://cryptorival.com/coins/bitcoin)
 
-### Ethereum (ETH)
+## Ethereum (ETH)
 
 the first crypto currency that supports smart contracts
 
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2431_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"bitcoin","geo":"US","time":"2020-03-07 2021-03-07"},{"keyword":"ethereum","geo":"US","time":"2020-03-07 2021-03-07"}],"category":0,"property":""}, {"exploreQuery":"geo=US&q=bitcoin,ethereum&date=today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+
 #### Pros
 
+- most active dApp platform
+- first crypto to support smart contracts
+- most funded crypto that supports smart contracts
+- ethereum 2.0 has the potential to fix slow and expensive transactions and bring support for additional languages due to the EVM being replaced with WASM
+- leader in the smart contract space
+- largest smart contract developer community
+- best development tooling in the space
+
 #### Cons
+
+- slow network
+- expensive transaction fees
+- ethereum 2.0 is not ready yet
+- smart contracts built in solidity (obscure custom programming language)
 
 [ethereum.org](https://ethereum.org)
 
