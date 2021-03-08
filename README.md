@@ -4,22 +4,21 @@
 
 ### Current Landscape
 
-| Name         | Symbol | Marketcap (USD)   | Rank | Production Ready | &nbsp;Decentralization&nbsp; | &nbsp;&nbsp;&nbsp;Scalabilty&nbsp;&nbsp;&nbsp; | Consensus Algorithm | Sharding | Sidechains         | Developer &nbsp;&nbsp;Community&nbsp;&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language |
-| ------------ | ------ | ----------------- | ---- | ---------------- | ---------------------------- | ---------------------------------------------- | ------------------- | -------- | ------------------ | ------------------------------------------- | ---------------------- | --------------- | ------------ | --------------- | ----- | --------------- | ----------------- |
-| Bitcoin      | BTC    | $913,437,031,824  |    1 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★                                        | PoW                 | No       | No                 | ★ ★ ★ ★ ★                                   | Yes (Can be Expensive) | No              | No           | No              | N/A   | N/A             | N/A               |
-| Ethereum     | ETH    | $190,788,644,118  |    2 | Yes              | ★ ★ ★ ★ ★                    | ★ ★                                            | PoW                 | No       | Partial (offchain) | ★ ★ ★ ★ ★                                   | Yes (Very Expensive)   | Yes             | Yes          | Yes             | 2190  | EVM             | Solidity          |
-| Ethereum 2.0 | ETH    | N/A               |  N/A | No               | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★ ★                                   | Yes                    | Yes             | Yes          | Yes             | N/A   | WASM            | Any Language      |
-| Cardano      | ADA    | $35,887,731,331   |    4 | No               | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★                                       | Yes                    | Yes             | Yes          | Yes             | N/A   | KEVM IEVM       | Any Language      |
-| Polkadot     | DOT    | $30,949,107,442   |    6 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             | 48    | WASM            | Any Language      |
-| Nem          | XEM    | $6,567,188,783    |   14 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★                                          | PoI                 | No       | No                 | ★ ★ ★                                       | Yes                    | No              | Yes          | No              | N/A   | N/A             | N/A               |
-| Cosmos       | ATOM   | $3,981,298,122    |   19 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             | 220   | N/A             | Golang            |
-| EOS          | EOS    | $3,659,700,720    |   22 | Yes              | ★ ★ ★                        | ★ ★ ★ ★ ★                                      | dPoS                | Yes      | Yes                | ★ ★ ★ ★ ★                                   | Free                   | Yes             | Yes          | Yes             | 571   | WASM            | Any Language      |
-| TRON         | TRX    | $3,657,178,467    |   23 | Yes              | ★ ★ ★                        | ★ ★ ★                                          | dPoS                | No       | No                 | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             | 1205  | TVM             | Solidity          |
+| Name         | Symbol | Marketcap (USD)   | Rank | Production Ready | &nbsp;Decentralization&nbsp; | &nbsp;&nbsp;&nbsp;Scalabilty&nbsp;&nbsp;&nbsp; | Consensus Algorithm | Sharding | Sidechains         | Developer &nbsp;&nbsp;Community&nbsp;&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language                     |
+| ------------ | ------ | ----------------- | ---- | ---------------- | ---------------------------- | ---------------------------------------------- | ------------------- | -------- | ------------------ | ------------------------------------------- | ---------------------- | --------------- | ------------ | --------------- | ----- | --------------- | -----------------                     |
+| Bitcoin      | BTC    | $913,437,031,824  |    1 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★                                        | PoW                 | No       | No                 | ★ ★ ★ ★ ★                                   | Yes (Can be Expensive) | No              | No           | No              |   N/A | N/A             | N/A                                   |
+| Ethereum     | ETH    | $190,788,644,118  |    2 | Yes              | ★ ★ ★ ★ ★                    | ★ ★                                            | PoW                 | No       | Partial (offchain) | ★ ★ ★ ★ ★                                   | Yes (Very Expensive)   | Yes             | Yes          | Yes             |  2190 | EVM             | Solidity                              |
+| Ethereum 2.0 | ETH    | N/A               |  N/A | No               | ★ ★ ★ ★                      | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★ ★                                   | Yes                    | Yes             | Yes          | Yes             |   N/A | WASM            | Solidity (Theoretically Any Language) |
+| Cardano      | ADA    | $35,887,731,331   |    4 | No               | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★                                       | Yes                    | Yes             | Yes          | Yes             |   N/A | KEVM IEVM       | Plutus Core                           |
+| Polkadot     | DOT    | $30,949,107,442   |    6 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             |    48 | WASM            | Rust (Theoretically Any Language)     |
+| Nem          | XEM    | $6,567,188,783    |   14 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★                                          | PoI                 | No       | No                 | ★ ★ ★                                       | Yes                    | No              | Yes          | No              |   N/A | N/A             | N/A                                   |
+| Cosmos       | ATOM   | $3,981,298,122    |   19 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             |   220 | N/A             | Golang                                |
+| EOS          | EOS    | $3,659,700,720    |   22 | Yes              | ★ ★ ★                        | ★ ★ ★ ★ ★                                      | dPoS                | Yes      | Yes                | ★ ★ ★ ★ ★                                   | Free                   | Yes             | Yes          | Yes             |   571 | WASM            | C++ (Theoretically Any Language)      |
+| TRON         | TRX    | $3,657,178,467    |   23 | Yes              | ★ ★ ★                        | ★ ★ ★                                          | dPoS                | No       | No                 | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             |  1205 | TVM             | Solidity                              |
+| Neo          | NEO    | $2,739,285,045    |   33 | Yes              | ★ ★ ★                        | ★ ★ ★                                          | dBFT                | No       | No                 | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             |    23 | NeoVM           | C# VB.Net F# Java Kotlin              |
 
 
 ## Bitcoin (BTC)
-
-the first crypto currency
 
 [bitcoin.org](https://bitcoin.org)
 
@@ -53,8 +52,6 @@ _5 year trend_
 
 
 ## Ethereum (ETH)
-
-the first crypto currency that supports smart contracts
 
 **_ethereum 2.0 is still in active development_**
 
@@ -103,8 +100,6 @@ _1 year trend_
 
 ## Cardano (ADA**
 
-largest marketcap PoS smart contract platform
-
 **_cardano is still in active development_**
 
 _1 year trend_
@@ -144,8 +139,6 @@ _1 year trend_
 
 ## Polkadot (DOT)
 
-largest marketcap production ready PoS smart contract platform
-
 _1 year trend_
 ![](images/polkadot.png)
 
@@ -167,9 +160,8 @@ _1 year trend_
 
 #### Cons
 
-- more complex architecture due to sidechain emphasis
 - small number of published dApps
-- development community still lacking because it is newer
+- newer development community
 
 #### Additional Links
 
@@ -181,8 +173,6 @@ _1 year trend_
 
 
 ## Nem (XEM)
-
-first crypto that supports proof of importance consensus
 
 _1 year trend_
 ![](images/nem.png)
@@ -204,7 +194,7 @@ _1 year trend_
 
 #### Cons
 
-- does not support sharding or sidechains
+- lack of support for sharding and sidechains
 - smart assets are not flexible because it does not support smart contracts
 - cannot build dApps because it does not support smart contracts
 - community interest has decreased
@@ -217,8 +207,6 @@ _1 year trend_
 
 
 ## Cosmos (ATOM)
-
-first smart contract platform that does not run a virtual machine
 
 _1 year trend_
 ![](images/cosmos.png)
@@ -251,8 +239,6 @@ _1 year trend_
 
 
 ## EOS (EOS)
-
-most active production ready PoS smart contract platform
 
 _1 year trend_
 ![](images/eos.png)
@@ -294,8 +280,6 @@ _1 year trend_
 
 ## TRON (TRX)
 
-second most active production ready PoS smart contract platform
-
 _1 year trend_
 ![](images/tron.png)
 
@@ -312,13 +296,13 @@ _1 year trend_
 - second most active production ready non PoW smart contract platform
 - dPoS consensus allows the platform to scale efficiently
 - WASM virtual machine supports smart contracts to be built in many languages
-- supports sharding and sidechains which improves the scalability of the platform
 - second largest dApp platform (over 1000 dApps already in production)
 
 #### Cons
 
 - 27 block producers makes it a more centralized crypto
 - trust issues with their leadership
+- lack of support for sharding and sidechains
 
 #### Additional Links
 
@@ -329,6 +313,41 @@ _1 year trend_
 [dappradar.com/rankings/protocol/tron](https://dappradar.com/rankings/protocol/tron)
 
 [dapp.com/topics/tron](https://www.dapp.com/topics/tron)
+
+
+## NEO (NEO)
+
+_1 year trend_
+![](images/tron.png)
+
+[neo.org](https://neo.org)
+
+[whitepaper](https://docs.neo.org/docs/en-us/basic/whitepaper.html)
+
+[wikipedia](https://en.wikipedia.org/wiki/NEO_(cryptocurrency))
+
+[docs](https://docs.neo.org)
+
+#### Pros
+
+- dBFT consensus allows the platform to scale efficiently
+- supports smart contracts to be built in many languages
+- backed by the Chinese government (could be a pro depending on how to look at it)
+
+#### Cons
+
+- lack of support for sharding and sidechains
+- many technical issues in the architecture render the platform unreliable
+
+#### Additional Links
+
+[coinmarketcap.com/currencies/neo](https://coinmarketcap.com/currencies/neo)
+
+[cryptorival.com/coins/neo](https://cryptorival.com/coins/neo)
+
+[dappradar.com/rankings/protocol/neo](https://dappradar.com/rankings/protocol/neo)
+
+[dapp.com/topics/neo](https://www.dapp.com/topics/neo)
 
 
 ## Resources
