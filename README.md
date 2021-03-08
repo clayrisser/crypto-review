@@ -14,7 +14,7 @@
 | Nem          | XEM    | $6,567,188,783    |   14 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★                                          | PoI                 | No       | No                 | ★ ★ ★                                       | Yes                    | No              | Yes          | No              | N/A   | N/A             | N/A               |
 | Cosmos       | ATOM   | $3,981,298,122    |   19 | Yes              | ★ ★ ★ ★ ★                    | ★ ★ ★ ★ ★                                      | PoS                 | Yes      | Yes                | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             | 220   | N/A             | Golang            |
 | EOS          | EOS    | $3,659,700,720    |   22 | Yes              | ★ ★ ★                        | ★ ★ ★ ★ ★                                      | dPoS                | Yes      | Yes                | ★ ★ ★ ★ ★                                   | Free                   | Yes             | Yes          | Yes             | 571   | WASM            | Any Language      |
-| TRON         | TRON   | $3,657,178,467    |   23 | Yes              | ★ ★ ★                        | ★ ★ ★                                          | dPoS                | No       | No                 | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             | 1205  | TVM             | Solidity          |
+| TRON         | TRX    | $3,657,178,467    |   23 | Yes              | ★ ★ ★                        | ★ ★ ★                                          | dPoS                | No       | No                 | ★ ★ ★ ★                                     | Yes                    | Yes             | Yes          | Yes             | 1205  | TVM             | Solidity          |
 
 
 ## Bitcoin (BTC)
@@ -292,7 +292,7 @@ _1 year trend_
 [dapp.com/topics/eos](https://www.dapp.com/topics/eos)
 
 
-## TRON (TRON)
+## TRON (TRX)
 
 second most active production ready PoS smart contract platform
 
