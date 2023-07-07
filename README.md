@@ -2,6 +2,8 @@
 
 > cryptos from a developers point of view
 
+![](assets/crypto-review.png)
+
 ### Current Landscape
 
 | Name         | Symbol | Marketcap (USD)   | Rank | Production Ready | &nbsp;Decentralization&nbsp; | &nbsp;&nbsp;&nbsp;Scalabilty&nbsp;&nbsp;&nbsp; | Consensus Algorithm | Sharding | Sidechains         | Developer &nbsp;&nbsp;Community&nbsp;&nbsp; | Transaction Fees       | Turing Complete | Smart Assets | Smart Contracts | dApps | Virtual Machine | Contract Language                     |
